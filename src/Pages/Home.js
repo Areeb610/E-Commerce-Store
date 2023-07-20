@@ -39,7 +39,7 @@ export default function Home() {
     <div>
       <MDBNavbar expand='lg' light bgColor='primary'>
         <MDBContainer fluid>
-          <MDBNavbarBrand href='./Home' className='text-white'>
+          <MDBNavbarBrand href='./' className='text-white'>
             Areeb's Store
           </MDBNavbarBrand>
 
@@ -55,7 +55,7 @@ export default function Home() {
           <MDBCollapse navbar show={showBasic}>
             <MDBNavbarNav className='mr-auto mb-2 mb-lg-0'>
               <MDBNavbarItem>
-                <MDBNavbarLink href = '/Home'className='text-white'>
+                <MDBNavbarLink href = '/'className='text-white'>
                   Home
                 </MDBNavbarLink>
               </MDBNavbarItem>
@@ -117,7 +117,7 @@ export default function Home() {
           <div className="col-md-4">
             <h5>Links</h5>
             <ul className="list-unstyled">
-              <li><a href="./Home" className='text-white'>Home</a></li>
+              <li><a href="./" className='text-white'>Home</a></li>
               <li><a href="./Products" className='text-white'>Products</a></li>
               <li><a href="./Cart" className='text-white'>Cart</a></li>
               <li><a href="./About" className='text-white'>About Us</a></li>
